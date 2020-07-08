@@ -1,0 +1,140 @@
+.col-s-1 {
+    width: 8.33%;
+}
+
+.col-s-2 {
+    width: 16.66%;
+}
+
+.col-s-3 {
+    width: 25%;
+}
+
+.col-s-4 {
+    width: 33.33%;
+}
+
+.col-s-5 {
+    width: 41.66%;
+}
+
+.col-s-6 {
+    width: 50%;
+}
+
+.col-s-7 {
+    width: 58.33%;
+}
+
+.col-s-8 {
+    width: 66.66%;
+}
+
+.col-s-9 {
+    width: 75%;
+}
+
+.col-s-10 {
+    width: 83.33%;
+}
+
+.col-s-11 {
+    width: 91.66%;
+}
+
+.col-s-12 {
+    width: 100%;
+}
+
+.slide {
+    font-size: 14px;
+    padding: 10px 40px;
+    margin-bottom: 100px;
+}
+
+.header {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.slide-content {
+    font-size: 12px;
+    padding: 60px 110px;
+    max-width: 550px;
+}
+
+.slide-content h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.home {
+    background-color: white;
+    padding: 20px 150px 60px;
+}
+
+.home section div {
+    display: inline-block;
+    font-size: 10px;
+}
+
+.quote {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: inline;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.line {
+    width: 1px;
+    height: 80px;
+}
+
+.arrow {
+    font-size: 6px;
+    padding: 5px;
+}
+
+.home-content {
+    font-size: 10px;
+}
+
+.footer {
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 8px;
+}
+
+.footer [class*="col-"] {
+    padding: 0px 5px;
+}
+
+.footer .col-1 {
+    margin: 0px 10px;
+}
+
+.footer p {
+    margin: 5px 0px;
+    word-break: break-all;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer li {
+    padding: 2px;
+    margin-bottom: 2px;
+}
+
+.footer h5 {
+    font-weight: bold;
+    margin: 5px 0px 5px;
+}
