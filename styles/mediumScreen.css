@@ -1,55 +1,64 @@
-.col-1 {
+.col-s-1 {
     width: 8.33%;
 }
 
-.col-2 {
+.col-s-2 {
     width: 16.66%;
 }
 
-.col-3 {
+.col-s-3 {
     width: 25%;
 }
 
-.col-4 {
+.col-s-4 {
     width: 33.33%;
 }
 
-.col-5 {
+.col-s-5 {
     width: 41.66%;
 }
 
-.col-6 {
+.col-s-6 {
     width: 50%;
 }
 
-.col-7 {
+.col-s-7 {
     width: 58.33%;
 }
 
-.col-8 {
+.col-s-8 {
     width: 66.66%;
 }
 
-.col-9 {
+.col-s-9 {
     width: 75%;
 }
 
-.col-10 {
+.col-s-10 {
     width: 83.33%;
 }
 
-.col-11 {
+.col-s-11 {
     width: 91.66%;
 }
 
-.col-12 {
+.col-s-12 {
     width: 100%;
 }
 
 .slide {
     font-size: 14px;
-    padding: 20px 60px;
-    margin-bottom: 100px;
+    padding: 10px 40px;
+    margin-bottom: 10px;
+}
+
+.slide section {
+    font-size: 0;
+    display: block;
+}
+
+.slide li a {
+    color: white !important;
 }
 
 .navbar {
@@ -59,40 +68,54 @@
 .header {
     font-size: 14px;
     display: inline-block;
-}
-
-.slide-content {
-    font-size: 12px;
-    padding: 100px 230px;
-    max-width: 800px;
-}
-
-.slide-content h1 {
-    font-size: 30px;
+    justify-content: center;
 }
 
 .logo {
-    display: inline-block;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.slide-content {
+    padding: 250px 80px 10px;
+}
+
+.slide-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.slide-content p {
+    font-size: 16px;
 }
 
 .home {
     background-color: white;
-    padding: 80px 200px;
+    padding: 20px 100px 60px;
 }
 
 .home section div {
     display: inline-block;
+    font-size: 10px;
+}
+
+.home-quote {
     font-size: 14px;
+    margin-bottom: 10px;
 }
 
 .quote {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 20px;
     display: inline;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .line {
@@ -101,19 +124,19 @@ h2 {
 }
 
 .arrow {
-    font-size: 10px;
-    padding: 10px;
+    font-size: 8px;
+    padding: 5px;
 }
 
 .home-content {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .footer {
-    padding: 50px 100px;
+    padding: 30px 80px;
     display: flex;
-    flex-direction: row;
-    font-size: 14px;
+    flex-direction: column;
+    font-size: 12px;
 }
 
 .footer [class*="col-"] {
@@ -142,5 +165,20 @@ h2 {
 
 .footer h5 {
     font-weight: bold;
-    margin: 15px 0px 5px;
+    margin: 5px 0px 5px;
+}
+
+.category {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px 10px;
+}
+
+.sub-category {
+    display: flex;
+    flex-direction: row;
+}
+
+.hidden-column {
+    display: none;
 }
