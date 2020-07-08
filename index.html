@@ -6,15 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="./resetCSS.css">
-    <link rel="stylesheet" href="./style.css">
-    <title>CSS Exercise</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="./styles/extraSmallScreen.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="./styles/smallScreen.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="./styles/mediumScreen.css">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="./styles/largeScreen.css">
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="./styles/extraLargeScreen.css">
+    <title>Exercise 1</title>
 </head>
 
 <body>
+    <!-- Header -->
     <div class="row slide">
-        <img class="img-background col-12 col-s-12" src="./image/background.png" alt="background" />
+        <img class="img-background col-12 col-s-12" src="./images/background.png" alt="background" />
         <section>
-            <a class="logo col-2" href="#"><img src="./image/logo.png" alt="logo" /></a>
+            <a class="logo col-2" href="#"><img src="./images/logo.png" alt="logo" /></a>
             <ul class="header col-10">
                 <li><a href="#">Commercial</a></li>
                 <li><a href="#">Industrial</a></li>
@@ -31,6 +37,7 @@
         </div>
     </div>
 
+    <!-- Home -->
     <div class="row home">
         <section>
             <div class="col-3 col-s-3">
@@ -55,6 +62,7 @@
         </section>
     </div>
 
+    <!-- Footer -->
     <div class="row footer">
         <div class="col-4">
             <p>P +64 9555 555</p>
