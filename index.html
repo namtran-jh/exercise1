@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./resetCSS.css">
     <!-- <link rel="stylesheet" href="./style.css"> -->
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="./styles/extraSmallScreen.css">
@@ -20,8 +20,17 @@
     <div class="row slide">
         <img class="img-background col-12 col-s-12" src="./images/background.png" alt="background" />
         <div class="navbar">
-            <a class="logo" href="#"><img src="./images/logo.png" alt="logo" /></a>
+            <img class="logo" src="./images/logo.png" alt="logo" />
             <p>&equiv;</p>
+        </div>
+        <div class="menu">
+            <ul class="menu-nav">
+                <li><a href="#">Commercial</a></li>
+                <li><a href="#">Industrial</a></li>
+                <li><a href="#">Infrastructure</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Utilities</a></li>
+            </ul>
         </div>
         <section>
             <a class="logo col-2" href="#"><img src="./images/logo.png" alt="logo" /></a>
@@ -45,7 +54,7 @@
     <div class="row home">
         <section>
             <div class="col-3 col-s-3">
-                <p>
+                <p class="home-quote">
                     <em><span class="quote">"</span><br />Lorem ipsum dolor sit amet consectetur aleg sirtrum
                         adipisicing elit. Norum minirazous voluptum
                         illo sum voluptaibus exped repellat.<br /><span class="quote">&nbsp;&nbsp;"</span></em>
@@ -69,54 +78,60 @@
     <!-- Footer -->
     <div class="row footer">
         <div class="col-4">
-            <p>P +64 9555 555</p>
-            <p>F +64 9555 555</p>
-            <p>E info@email.com</p>
+            <div class="contact">
+                <p>P +64 9555 555</p>
+                <p>F +64 9555 555</p>
+                <p>E info@email.com</p>
+            </div>
             <h5>Address</h5>
             <p>http://www.lipsum.com/feed/html</p>
         </div>
-        <div class="col-1">
-            <h5>Services</h5>
-            <ul>
-                <li>Commercial</li>
-                <li>Distribution</li>
-                <li>Gas</li>
-                <li>Generation</li>
-                <li>Industrial</li>
-                <li>Telecomms</li>
-                <li>Transmission</li>
-                <li>Water</li>
-            </ul>
+        <div class="sub-category">
+            <div class="col-1">
+                <h5>Services</h5>
+                <ul>
+                    <li>Commercial</li>
+                    <li>Distribution</li>
+                    <li>Gas</li>
+                    <li>Generation</li>
+                    <li>Industrial</li>
+                    <li>Telecomms</li>
+                    <li>Transmission</li>
+                    <li>Water</li>
+                </ul>
+            </div>
+            <div class="col-1">
+                <h5>Markets</h5>
+                <ul>
+                    <li>Commercial</li>
+                    <li>Industrial</li>
+                    <li>Infracstructure</li>
+                    <li>Resources</li>
+                    <li>Utilities</li>
+                </ul>
+            </div>
         </div>
-        <div class="col-1">
-            <h5>Markets</h5>
-            <ul>
-                <li>Commercial</li>
-                <li>Industrial</li>
-                <li>Infracstructure</li>
-                <li>Resources</li>
-                <li>Utilities</li>
-            </ul>
-        </div>
-        <div class="col-1">
-            <h5>HSEQ</h5>
-            <ul>
-                <li>Healthy</li>
-                <li>Safety</li>
-                <li>Environment</li>
-                <li>Quality</li>
-            </ul>
-        </div>
-        <div class="col-1">
-            <h5>About</h5>
-            <ul>
-                <li>History</li>
-                <li>Structure</li>
-                <li>People</li>
-                <li>CSR</li>
-                <li>Locations</li>
-                <li>PPV</li>
-            </ul>
+        <div class="sub-category">
+            <div class="col-1">
+                <h5>HSEQ</h5>
+                <ul>
+                    <li>Healthy</li>
+                    <li>Safety</li>
+                    <li>Environment</li>
+                    <li>Quality</li>
+                </ul>
+            </div>
+            <div class="col-1">
+                <h5>About</h5>
+                <ul>
+                    <li>History</li>
+                    <li>Structure</li>
+                    <li>People</li>
+                    <li>CSR</li>
+                    <li>Locations</li>
+                    <li>PPV</li>
+                </ul>
+            </div>
         </div>
         <div class="col-1">
             <h5>Careers</h5>
