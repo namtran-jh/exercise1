@@ -75,12 +75,30 @@ section {
 }
 
 .menu {
-    margin: 10px 0px;
     display: none;
 }
 
-.navbar p:focus .menu {
+.menu-nav {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.menu ul,
+li a {
+    color: #f1960d !important;
+}
+
+.menu li:hover {
+    background-color: rgba(200, 200, 200);
+}
+
+.navbar p:hover~.menu {
     display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .logo {
@@ -88,7 +106,7 @@ section {
 }
 
 .slide-content {
-    padding: 140px 40px 10px;
+    padding: 150px 40px 10px;
     text-align: center;
     font-size: 4px;
 }
