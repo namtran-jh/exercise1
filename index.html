@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./resetCSS.css">
-    <!-- <link rel="stylesheet" href="./style.css"> -->
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="./styles/extraSmallScreen.css">
     <link rel="stylesheet" media="screen and (min-width: 600px)" href="./styles/smallScreen.css">
     <link rel="stylesheet" media="screen and (min-width: 768px)" href="./styles/mediumScreen.css">
@@ -17,137 +17,140 @@
 
 <body>
     <!-- Header -->
-    <div class="row slide">
-        <img class="img-background col-12 col-s-12" src="./images/background.png" alt="background" />
-        <div class="navbar">
-            <img class="logo" src="./images/logo.png" alt="logo" />
-            <p>&equiv;</p>
-            <div class="menu">
-                <ul class="menu-nav">
+    <div class="navbar">
+        <img class="logo" src="./images/logo.png" alt="logo" />
+        <input type="checkbox" id="checked-navbar" name="checked-navbar" value="checked-navbar" />
+        <label for="checked-navbar">&equiv;</label>
+        <ul class="menu-nav">
+            <li>Commercial</li>
+            <li>Industrial</li>
+            <li>Infrastructure</li>
+            <li>Resources</li>
+            <li>Utilities</li>
+        </ul>
+    </div>
+
+    <div class="flex-container">
+        <div class="row slide">
+            <img class="img-background col-12 col-s-12" src="./images/background.png" alt="background" />
+
+            <section>
+                <a class="logo col-2 col-s-2" href="#"><img src="./images/logo.png" alt="logo" /></a>
+                <ul class="header col-10 col-s-10">
                     <li><a href="#">Commercial</a></li>
                     <li><a href="#">Industrial</a></li>
                     <li><a href="#">Infrastructure</a></li>
                     <li><a href="#">Resources</a></li>
                     <li><a href="#">Utilities</a></li>
                 </ul>
+            </section>
+            <div class="slide-content col-12 col-s-12">
+                <h1>I want to feel <br /> what you wanted.</h1>
+                <p>Trent from punchy pint when lets get some snag. Get a dog up ya moolah piece of piss trent from punchy slaps. Shazza got us some chuck a sickie heaps he hasn't got a kindie. As stands out like bush telly with as stands out like porky.
+                    She'll be right pretty spiffy trent from punchy cab sav
+                </p>
             </div>
         </div>
 
-        <section>
-            <a class="logo col-2 col-s-2" href="#"><img src="./images/logo.png" alt="logo" /></a>
-            <ul class="header col-10 col-s-10">
-                <li><a href="#">Commercial</a></li>
-                <li><a href="#">Industrial</a></li>
-                <li><a href="#">Infrastructure</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Utilities</a></li>
-            </ul>
-        </section>
-        <div class="slide-content col-12 col-s-12">
-            <h1>I want to feel <br /> what you wanted.</h1>
-            <p>Trent from punchy pint when lets get some snag. Get a dog up ya moolah piece of piss trent from punchy slaps. Shazza got us some chuck a sickie heaps he hasn't got a kindie. As stands out like bush telly with as stands out like porky. She'll
-                be right pretty spiffy trent from punchy cab sav
-            </p>
-        </div>
-    </div>
-
-    <!-- Home -->
-    <div class="row home">
-        <section>
-            <div class="col-3 col-s-3">
-                <p class="home-quote">
-                    <em><span class="quote">"</span><br />Lorem ipsum dolor sit amet consectetur aleg sirtrum
+        <!-- Home -->
+        <div class="row home">
+            <section>
+                <div class="col-3 col-s-3">
+                    <p class="home-quote">
+                        <em><span class="quote">"</span><br />Lorem ipsum dolor sit amet consectetur aleg sirtrum
                         adipisicing elit. Norum minirazous voluptum
                         illo sum voluptaibus exped repellat.<br /><span class="quote">&nbsp;&nbsp;"</span></em>
-                </p>
-                <div style="float:right">
-                    <span class="arrow">&lt;</span>
-                    <span class="arrow">&gt;</span>
+                    </p>
+                    <div style="float:right">
+                        <span class="arrow">&lt;</span>
+                        <span class="arrow">&gt;</span>
+                    </div>
                 </div>
-            </div>
-            <div class="col-1 col-s-1 line-disable" style="text-align: center;">
-                <div class="line"></div>
-            </div>
-            <div class="col-8 col-s-8">
-                <h2>Lorem ipsum dolor sit amet consectetur</h2>
-                <p class="home-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, hic id. Aliquam reiciendis consequuntur nisi ullam quia mollitia a maxime vitae. Impedit, itaque? Quas fuga harum, tenetur neque adipisci iste. Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Nemo quos unde reiciendis ad magnam repellat suscipit, assumenda maiores consequuntur ab eius quam, hic numquam aut corrupti molestias adipisci quidem? Officiis!</p>
-            </div>
-        </section>
-    </div>
+                <div class="col-1 col-s-1 line-disable" style="text-align: center;">
+                    <div class="line"></div>
+                </div>
+                <div class="col-8 col-s-8">
+                    <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                    <p class="home-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, hic id. Aliquam reiciendis consequuntur nisi ullam quia mollitia a maxime vitae. Impedit, itaque? Quas fuga harum, tenetur neque adipisci iste. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Nemo quos unde reiciendis ad magnam repellat suscipit, assumenda maiores consequuntur ab eius quam, hic numquam aut corrupti molestias adipisci quidem? Officiis!</p>
+                </div>
+            </section>
+        </div>
 
-    <!-- Footer -->
-    <div class="row footer">
-        <div class="col-4 col-md-4">
-            <div class="contact">
-                <p>P +64 9555 555</p>
-                <p>F +64 9555 555</p>
-                <p>E info@email.com</p>
+        <!-- Footer -->
+        <div class="row footer">
+            <div class="col-4 col-md-4">
+                <div class="contact">
+                    <p>P +64 9555 555</p>
+                    <p>F +64 9555 555</p>
+                    <p>E info@email.com</p>
+                </div>
+                <h5>Address</h5>
+                <p>http://www.lipsum.com/feed/html</p>
             </div>
-            <h5>Address</h5>
-            <p>http://www.lipsum.com/feed/html</p>
+            <div class="category">
+                <div class="sub-category">
+                    <div class="col-1 col-md-2">
+                        <h5>Services</h5>
+                        <ul>
+                            <li>Commercial</li>
+                            <li>Distribution</li>
+                            <li>Gas</li>
+                            <li>Generation</li>
+                            <li>Industrial</li>
+                            <li>Telecomms</li>
+                            <li>Transmission</li>
+                            <li>Water</li>
+                        </ul>
+                    </div>
+                    <div class="col-1 col-md-2">
+                        <h5>Markets</h5>
+                        <ul>
+                            <li>Commercial</li>
+                            <li>Industrial</li>
+                            <li>Infracstructure</li>
+                            <li>Resources</li>
+                            <li>Utilities</li>
+                        </ul>
+                    </div>
+                    <div class="col-1 col-md-2">
+                        <h5>HSEQ</h5>
+                        <ul>
+                            <li>Healthy</li>
+                            <li>Safety</li>
+                            <li>Environment</li>
+                            <li>Quality</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sub-category">
+                    <div class="col-1 col-md-2">
+                        <h5>About</h5>
+                        <ul>
+                            <li>History</li>
+                            <li>Structure</li>
+                            <li>People</li>
+                            <li>CSR</li>
+                            <li>Locations</li>
+                            <li>PPV</li>
+                        </ul>
+                    </div>
+                    <div class="col-1 col-md-2">
+                        <h5>Careers</h5>
+                        <ul>
+                            <li>Who we are</li>
+                            <li>Benefits</li>
+                            <li>Programmes</li>
+                            <li>Our People</li>
+                            <li>Roles</li>
+                            <li>Vacancies</li>
+                        </ul>
+                    </div>
+                    <div class="col-1 hidden-column"></div>
+                </div>
+            </div>
         </div>
-        <div class="category">
-            <div class="sub-category">
-                <div class="col-1 col-md-2">
-                    <h5>Services</h5>
-                    <ul>
-                        <li>Commercial</li>
-                        <li>Distribution</li>
-                        <li>Gas</li>
-                        <li>Generation</li>
-                        <li>Industrial</li>
-                        <li>Telecomms</li>
-                        <li>Transmission</li>
-                        <li>Water</li>
-                    </ul>
-                </div>
-                <div class="col-1 col-md-2">
-                    <h5>Markets</h5>
-                    <ul>
-                        <li>Commercial</li>
-                        <li>Industrial</li>
-                        <li>Infracstructure</li>
-                        <li>Resources</li>
-                        <li>Utilities</li>
-                    </ul>
-                </div>
-                <div class="col-1 col-md-2">
-                    <h5>HSEQ</h5>
-                    <ul>
-                        <li>Healthy</li>
-                        <li>Safety</li>
-                        <li>Environment</li>
-                        <li>Quality</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="sub-category">
-                <div class="col-1 col-md-2">
-                    <h5>About</h5>
-                    <ul>
-                        <li>History</li>
-                        <li>Structure</li>
-                        <li>People</li>
-                        <li>CSR</li>
-                        <li>Locations</li>
-                        <li>PPV</li>
-                    </ul>
-                </div>
-                <div class="col-1 col-md-2">
-                    <h5>Careers</h5>
-                    <ul>
-                        <li>Who we are</li>
-                        <li>Benefits</li>
-                        <li>Programmes</li>
-                        <li>Our People</li>
-                        <li>Roles</li>
-                        <li>Vacancies</li>
-                    </ul>
-                </div>
-                <div class="col-1 hidden-column"></div>
-            </div>
-        </div>
+
     </div>
 </body>
 

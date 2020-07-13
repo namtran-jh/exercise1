@@ -58,7 +58,7 @@
 }
 
 .slide li a {
-    color: white !important;
+    color: #ffffff !important;
 }
 
 .navbar {
@@ -81,7 +81,7 @@
 }
 
 .slide-content {
-    padding: 250px 80px 10px;
+    padding: 80px;
 }
 
 .slide-content h1 {
@@ -94,7 +94,7 @@
 }
 
 .home {
-    background-color: white;
+    background-color: #ffffff;
     padding: 20px 100px 60px;
 }
 

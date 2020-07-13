@@ -1,3 +1,17 @@
 .navbar {
     display: none;
 }
+
+.slide-content {
+    padding: 250px 230px;
+}
+
+.slide-content h1 {
+    font-size: 40px;
+}
+
+.slide-content p {
+    font-size: 14px;
+    padding-right: 200px;
+    color: rgb(0, 0, 0);
+}
