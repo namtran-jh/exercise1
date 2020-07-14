@@ -1,0 +1,13 @@
+.slide-content {
+    padding: 240px 310px;
+}
+
+.slide-content h1 {
+    font-size: 50px;
+}
+
+.slide-content p {
+    font-size: 18px;
+    padding: 0px 400px 0px 0px;
+    color: rgb(0, 0, 0);
+}

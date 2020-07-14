@@ -62,18 +62,12 @@
 
 .slide-content {
     font-size: 12px;
-    padding: 250px 230px;
-    text-align: justify;
+    padding: 100px 40px;
+    text-align: center;
 }
 
 .slide-content h1 {
     font-size: 40px;
-}
-
-.slide-content p {
-    font-size: 14px;
-    padding-right: 200px;
-    color: rgb(0, 0, 0);
 }
 
 .logo {
